@@ -1,4 +1,5 @@
 package model;
 
-public class Artifact {
+public class Item {
+
 }
