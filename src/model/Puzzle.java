@@ -3,6 +3,7 @@ package model;
 public class Puzzle {
     public static void main(String[] args) {}
 
+
     // represents a puzzle in the game
 // puzzles are challenges that the player must solve to unlock rooms or progress further
     public class Puzzle {
@@ -152,4 +153,5 @@ public class Puzzle {
             System.out.println("-----------------------");
         }
     }
+
 }
