@@ -1,0 +1,7 @@
+M1|Mutated Angerfish|R16|A massive aquatic mutation with slimy green scales and glowing eyes. It feeds on power cables.|35|12|Light sources|I10
+M2|Crawler|R19|A pale, twisted creature that tracks you by sound. It attacks when it hears movement.|30|6|Silence|None
+M3|Security Drone|R5|A corrupted four legged robot with a glowing red eye. It delivers electric shocks.|40|14|EMP pulse|None
+M4|Cargo Bay Corruptor|R12|A hulking mechanical beast built from ship scraps. Its heavy claw smashes walls.|70|18|Power surge|None
+M5|Mutated Chef|R7|A disfigured humanoid dragging a tray of organs. Its grin is melted into its face.|85|13|Antidote Syringe|I4
+M6|Security Robot|R15|A hulking armored machine scanning for intruders. Emits a deep metallic growl.|60|22|Laser Pistol|I8
+M7|Experimental Monster|R4|A grotesque fusion of flesh and steel. Its translucent skin reveals twitching muscle fibers.|100|24|None|None
