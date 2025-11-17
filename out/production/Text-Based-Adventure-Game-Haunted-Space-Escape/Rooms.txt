@@ -1,0 +1,20 @@
+R1|Crash Pod Chamber|You awaken strapped into a crash seat, the metallic tang of recycled air filling your lungs. The walls are scorched and the control panel sparks intermittently. A flickering light reveals a note: "Escape before the oxygen runs out. Trust nothing you see."|NORTH:2|EAST:3
+R2|Dark Room|Darkness consumes everything. The air is thick, and faint buzzing comes from faulty wiring. You can feel the walls but see nothing without light.|SOUTH:1|EAST:4
+R3|Utility Closet|A cramped space filled with rusty tools and tangled wires. A dusty flashlight rests on a crate.|WEST:1
+R4|Lab|Broken glass and cracked observation windows show failed experiments. Chemical vapors hang in the air.|WEST:2|NORTH:6|EAST:5
+R5|Vacuum Room|A pressurized chamber with flashing red lights and a humming airlock door. One wrong move could mean death.|WEST:4
+R6|Constellation Room|A holographic star map shimmers in the air, glowing faintly blue. Constellations shift when touched.|SOUTH:4
+R7|Haunted Cafeteria|Blood covers overturned tables. A flickering sign reads “don’t eat the meat.” The stench of decay lingers.|EAST:8
+R8|Toxic Infirmary|Once sterile, now flooded with toxins. Shattered syringes and medicine vials litter the ground.|WEST:7|NORTH:9
+R9|Alien Cosmetic Lab|Tanks of organs and glowing tissue samples line the walls. A voice recording repeats: “Beauty is pain.”|SOUTH:8|EAST:10
+R10|Cryochamber|Rows of cracked cryopods filled with frozen corpses. Frost creeps across the glass.|WEST:9
+R11|Observation Deck|A glass wall overlooks the void. Blood smears trail toward the shattered telescope.|SOUTH:12
+R12|Cargo Bay|Crates tower above you. A rhythmic metallic thump echoes something massive moves behind the wall.|NORTH:11|EAST:13
+R13|Arcade Rec Room|Dusty arcade machines flicker weakly. One machine glows with a digital puzzle on its cracked screen.|WEST:12|EAST:14
+R14|Reactor Room|Blinding red lights flash. The core pulses violently as steam bursts from vents. A control panel sparks nearby.|WEST:13|EAST:15
+R15|Armory|Rows of dented lockers line the walls. One glows faintly with a keypad lock.|WEST:14|NORTH:16
+R16|Engine Room|The ship’s core rumbles beneath your feet. Exposed wires crackle with unstable energy.|SOUTH:15|EAST:17
+R17|Engine Supply Room|A cramped chamber filled with broken tools and oily fumes. Something metallic glints under a bench.|WEST:16
+R18|Crew Cabin|Overturned bunks and scattered photos line the floor. A desk terminal glows faintly displaying a riddle.|NORTH:19
+R19|Echoing Hallway|A dark corridor echoes with footsteps not your own. A monster’s growl emerges from the shadows.|SOUTH:18|EAST:20
+R20|Escape Pod|A pristine pod glows with cold emergency lights. The biometric lock hums quietly waiting for a match.|WEST:19
