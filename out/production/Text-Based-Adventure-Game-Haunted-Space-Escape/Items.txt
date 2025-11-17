@@ -1,0 +1,15 @@
+I1|Jukebox Token|A shiny token that activates the jukebox to distract nearby monsters.|R12|MISC|0
+I2|Poison Vial|A fragile vial that releases toxic mist, dealing damage to enemies.|R4|CONSUMABLE|20
+I3|Flashlight|A durable flashlight that illuminates dark rooms.|R3|TOOL|0
+I4|Bloodstained Keycard|A smeared security card that unlocks restricted areas.|R17|KEY|0
+I5|Antidote Syringe|A shimmering syringe that heals the player or weakens toxins.|R7|CONSUMABLE|50
+I6|Alien Tissue Sample|A glowing fragment used to unlock the DNA scanner.|R9|KEY|0
+I7|Armor Vest|A dented but functional vest that reduces damage taken.|R15|ARMOR|10
+I8|Laser Pistol|A compact energy weapon effective against robotic enemies.|R15|WEAPON|25
+I9|Medkit|A standard kit that restores fifty health.|R8|CONSUMABLE|50
+I10|Snake Oil|A strange concoction effective against the Mutated Angerfish.|R16|CONSUMABLE|30
+I11|Oxygen Canister|A portable canister that restores fifty percent oxygen.|R5|CONSUMABLE|50
+I12|Oxygen Canister|A portable canister that restores fifty percent oxygen.|R12|CONSUMABLE|50
+I13|Oxygen Canister|A portable canister that restores fifty percent oxygen.|R16|CONSUMABLE|50
+I14|Medkit|A standard kit that restores fifty health.|R18|CONSUMABLE|50
+I15|Medkit|A standard kit that restores fifty health.|R11|CONSUMABLE|50

@@ -1,19 +1,17 @@
 package model;
 
-// represents the player's oxygen management system
-// keeps track of how much oxygen the player has left
-// reduces oxygen as time passes or as the player moves between rooms
+// Created by: Eyob
+// This class handles all oxygen behavior in the game.
+// It tracks current oxygen, draining, restoring, and checking if oxygen is critical.
 public class OxygenSystem {
 
-    // this variable represents the current oxygen level (out of 100)
+    // this variable stores the current oxygen level
     private int oxygenLevel;
 
-    // this variable sets how much oxygen is lost each turn or movement
+    // this variable controls how fast oxygen drains
     private int depletionRate;
 
-    // constructor for creating an oxygen system
-    // startingLevel = starting oxygen percentage
-    // depletionRate = how much oxygen is lost each move
+    // constructor sets starting oxygen and how fast it drains
     public OxygenSystem(int startingLevel, int depletionRate) {
         this.oxygenLevel = startingLevel;
         this.depletionRate = depletionRate;
@@ -24,7 +22,7 @@ public class OxygenSystem {
         return oxygenLevel;
     }
 
-    // decreases oxygen by the set depletion rate
+    // this method reduces oxygen by the normal depletion rate
     public void decreaseOxygen() {
         oxygenLevel -= depletionRate;
         if (oxygenLevel < 0) {
@@ -32,8 +30,7 @@ public class OxygenSystem {
         }
     }
 
-    // decreases oxygen by a custom amount
-    // amount = how much oxygen to remove
+    // this method reduces oxygen by a specific amount
     public void decreaseOxygenBy(int amount) {
         oxygenLevel -= amount;
         if (oxygenLevel < 0) {
@@ -41,8 +38,7 @@ public class OxygenSystem {
         }
     }
 
-    // restores oxygen by a custom amount
-    // amount = how much oxygen to add
+    // this method restores oxygen by a specific amount
     public void restoreOxygen(int amount) {
         oxygenLevel += amount;
         if (oxygenLevel > 100) {
@@ -50,23 +46,32 @@ public class OxygenSystem {
         }
     }
 
-    // checks if oxygen is at a critical level (20% or lower)
-    // return = true if oxygen is dangerously low
+    // this method restores oxygen when using an oxygen item
+    public void useOxygenItem(int amount) {
+        restoreOxygen(amount);
+        if (oxygenLevel > 100) {
+            oxygenLevel = 100;
+        }
+    }
+
+    // this method checks if oxygen is dangerously low
     public boolean isCritical() {
         return oxygenLevel <= 20;
     }
 
-    // displays a warning message if oxygen is low
+    // this prints the current oxygen level to the player
     public void showOxygenStatus() {
         if (isCritical()) {
-            System.out.println("Warning: Oxygen level critical (" + oxygenLevel + "%). Find oxygen soon!");
+            System.out.println("Warning. Oxygen level critical (" + oxygenLevel + "%). Find oxygen soon.");
         } else {
             System.out.println("Oxygen level: " + oxygenLevel + "%");
         }
     }
+    public void setOxygenLevel(int lvl) {
+        this.oxygenLevel = lvl;
+    }
 
-    // checks if player can survive (oxygen above zero)
-    // return = true if oxygen left, false if out
+    // this checks if the player still has oxygen left
     public boolean canBreathe() {
         return oxygenLevel > 0;
     }

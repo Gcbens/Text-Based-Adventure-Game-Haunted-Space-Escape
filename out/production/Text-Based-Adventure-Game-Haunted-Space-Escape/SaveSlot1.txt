@@ -1,0 +1,5 @@
+PLAYER_ROOM|3
+OXYGEN|95
+PUZZLES_SOLVED|
+MONSTERS_DEFEATED|
+FLAGS|darkDoor=false,cargoTunnel=false,escapePod=false
